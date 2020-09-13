@@ -46,19 +46,21 @@
     <!--main-->
 
     <main class="main">
-      <div class="container">
-        <!--hero-->
-        <section class="hero">
+      <!--hero-->
+      <section class="hero">
+        <div class="container">
           <h1 class="hero__title">
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
           <button class="button" type="button">Заказать услугу</button>
-        </section>
-        <!--/hero-->
+        </div>
+      </section>
+      <!--/hero-->
 
-        <!--features-->
-        <section class="features">
+      <!--features-->
+      <section class="features">
+        <div class="container">
           <h2 class="title" hidden>Наши преимущества</h2>
           <ul class="wrapper">
             <li class="features-item">
@@ -90,14 +92,16 @@
               </p>
             </li>
           </ul>
-        </section>
-        <!--/features-->
+        </div>
+      </section>
+      <!--/features-->
 
-        <!--occupation-->
-        <section class="occupation">
+      <!--occupation-->
+      <section class="occupation">
+        <div class="container">
           <h2 class="title">Чем мы занимаемся</h2>
 
-          <ul class="occupation-images">
+          <ul class="occupation__images">
             <li>
               <img
                 src="./images/img_1.jpg"
@@ -123,11 +127,13 @@
               />
             </li>
           </ul>
-        </section>
-        <!--/occupation-->
+        </div>
+      </section>
+      <!--/occupation-->
 
-        <!--team-->
-        <section class="team">
+      <!--team-->
+      <section class="team">
+        <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="wrapper">
             <li class="team-item">
@@ -138,8 +144,8 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Игорь Демьяненко</h3>
-              <p class="position">Product Designer</p>
+              <h3 class="team-item__name">Игорь Демьяненко</h3>
+              <p class="team-item__position">Product Designer</p>
             </li>
             <li class="team-item">
               <img
@@ -149,8 +155,8 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Ольга Репина</h3>
-              <p class="position">Frontend Developer</p>
+              <h3 class="team-item__name">Ольга Репина</h3>
+              <p class="team-item__position">Frontend Developer</p>
             </li>
             <li class="team-item">
               <img
@@ -160,8 +166,8 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Николай Тарасов</h3>
-              <p class="position">Marketing</p>
+              <h3 class="team-item__name">Николай Тарасов</h3>
+              <p class="team-item__position">Marketing</p>
             </li>
             <li class="team-item">
               <img
@@ -171,13 +177,13 @@
                 width="270"
                 height="260"
               />
-              <h3 class="name">Михаил Ермаков</h3>
-              <p class="position">UI Designer</p>
+              <h3 class="team-item__name">Михаил Ермаков</h3>
+              <p class="team-item__position">UI Designer</p>
             </li>
           </ul>
-        </section>
-        <!--/team-->
-      </div>
+        </div>
+      </section>
+      <!--/team-->
     </main>
 
     <!--/main-->
@@ -189,14 +195,24 @@
           >Web <span class="color_white">Studio</span></a
         >
         <address>
-          <ul>
+          <ul class="footer-list">
             <li>
-              <a href="https://goo.gl/maps/oYZgJUXY3QhVkCRE7"
+              <a
+                class="footer-list__street"
+                href="https://goo.gl/maps/oYZgJUXY3QhVkCRE7"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li><a href="mailto:info@devstudio.com">info@example.com</a></li>
-            <li><a href="tel:+380961111111">+38 099 111 11 11</a></li>
+            <li>
+              <a class="footer-list__contacts" href="mailto:info@devstudio.com"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-list__contacts" href="tel:+380961111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
           </ul>
         </address>
       </div>
