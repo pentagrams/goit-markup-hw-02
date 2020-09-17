@@ -70,7 +70,9 @@ ul {
 .link a {
   color: var(--color-black);
 }
-.link a:hover {
+.link a:hover,
+.link a:focus,
+.link a:active {
   color: var(--color-blue);
 }
 .link:not(:last-child) {
