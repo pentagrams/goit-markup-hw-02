@@ -67,12 +67,11 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.link a {
-  color: var(--color-black);
+.link .active {
+  color: var(--color-blue);
 }
 .link a:hover,
-.link a:focus,
-.link a:active {
+.link a:focus {
   color: var(--color-blue);
 }
 
