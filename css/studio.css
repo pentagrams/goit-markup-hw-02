@@ -35,10 +35,10 @@ ul {
   letter-spacing: 0.03em;
   color: var(--color-blue);
 }
-.color_black {
+.color__black {
   color: var(--color-black);
 }
-.color_white {
+.color__white {
   color: var(--color-white);
 }
 
@@ -67,7 +67,10 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.link .active {
+.link .link__static {
+  color: var(--color-black);
+}
+.link .link__active {
   color: var(--color-blue);
 }
 .link a:hover,
