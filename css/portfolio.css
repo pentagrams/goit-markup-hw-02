@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -135,7 +136,8 @@ ul {
   margin: -15px;
 }
 .portfolio-table-item {
-  margin: 15px;
+  margin: 14px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-table-item__title {
